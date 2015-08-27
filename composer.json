@@ -1,0 +1,21 @@
+{
+  "name": "skamenetskiy/yii2-cart",
+  "description": "A shopping cart for yii2 models",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Semen Kamenetskiy",
+      "email": "skamenetskiy@icloud.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "skamenetskiy\\yii\\cart\\": "skamenetskiy/yii/cart"
+    }
+  }
+}
